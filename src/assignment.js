@@ -42,7 +42,7 @@ function sumFunction(current, next) {
 const sum = arrayOfNumbers.reduce(sumFunction, 0);
 console.log(`The sum of ${arrayOfNumbers} is ${sum}`);
 }
-sumOfNumbers([1, 2, 3, 4, 5]);
+// sumOfNumbers([1, 2, 3, 4, 5]);
 sumOfNumbers(numbers1);
 /**
  * Challenge - 2
@@ -84,7 +84,7 @@ function countEvenNumbers(arrayOfNumbers) {
   });
     console.log(`There are ${evenNumbers.length} Even Numbers in the array of numbers ${evenNumbers}`)
 }
-countEvenNumbers([1, 2, 3, 4, 5, 6]);
+// countEvenNumbers([1, 2, 3, 4, 5, 6]);
 countEvenNumbers(numbers2);
 
 /**
@@ -104,7 +104,7 @@ countEvenNumbers(numbers2);
 function celsiusToFahrenheit(arrayOfNumbers) {
     return arrayOfNumbers;
 }
-
+// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
