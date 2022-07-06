@@ -19,7 +19,7 @@ function sumFunction(current, next) {
     return current + next;
 }
 const sum = arrayOfNumbers.reduce(sumFunction, 0);
-console.log(`The sum of ${arrayOfNumbers} is ${sum}`);
+return `The sum of ${arrayOfNumbers} is ${sum}`
 }
 
 assignment.sumOfNumbers = sumOfNumbers;
@@ -40,7 +40,7 @@ function countEvenNumbers(arrayOfNumbers) {
       evenNumbers.push(number);
     }
   });
-    console.log(`There are ${evenNumbers.length} Even Numbers in the array of numbers ${evenNumbers}`)
+    return `There are ${evenNumbers.length} Even Numbers in the array of numbers ${evenNumbers}`
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
